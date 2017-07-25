@@ -1,0 +1,187 @@
+html,body{
+	height:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.layout{
+	width:995px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+}
+#head{
+	height:80px;
+	width:auto;
+	background:#fff;
+}
+.himg1{
+	height:44px;
+	width:160px;
+	margin:18px 0;
+}
+.himg2{
+	height:30px;
+	width:100px;
+	margin:25px 30px;
+}
+.hbox1{
+	height:20px;
+	width:160px;
+	position:absolute;
+	right:8px;
+	top:50px;
+	font-size:15px;
+	color:#999;
+}
+#bodyer{
+	height:480px;
+	width:auto;
+	background:#a51823;
+}
+.bimg1{
+	height:100%;
+	width:100%;
+}
+.bodybox1{
+	height:362px;
+	width:350px;
+	background:#fff;
+	position:absolute;
+	right:10px;
+	top:40px;
+}
+ul li{
+	height:60px;
+	width:173px;
+	float:left;
+	border-bottom:1px solid #f4f4f4;
+	margin-bottom:40px;
+	position:relative;
+
+}
+ul li a{
+	height:60px;
+	width:173px;
+	font-size:20px;
+	color:#666;
+	text-align:center;
+	line-height:60px;
+	position:absolute;
+	left:0;
+}
+ul li:hover a{
+	color:#e43972;
+	font-weight:800;
+	
+}
+.bodybox2{
+	height:38px;
+	width:306px;
+	border:2px solid #bdbdbd;
+	clear:both;
+	margin:20px;
+}
+.box_son,.box_son2{
+	height:38px;
+	width:40px;
+	float:left;
+}
+.box_son{
+	background:url(../img/jd3.png) left top;
+}
+input{
+	height:38px;
+	border:none;
+	outline:none;
+	margin-left:15px;
+}
+.box_son2{
+	background:url(../img/jd3.png) -48px top;
+}
+a{
+	float:right;
+	margin-right:20px;
+	font-size:15px;
+	color:#666;
+}
+.inputbox1{
+	height:34px;
+	width:305px;
+	clear:both;
+	margin:20px;
+	font-size:20px;
+	font-weight:800;
+	color:#fff;
+	letter-spacing:20px;
+	background:#e4393c;
+}
+.bodybox3{
+	height:50px;
+	width:345px;
+	border-top:1px solid #f4f4f4;
+	overflow:hidden;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.bodybox3 ul li{
+	height:50px;
+	width:74px;
+	font-size:10px;
+	text-align:center;
+	margin-left:20px;
+	line-height:50px;
+}
+.bodybox3 li a{
+	height:50px;
+	width:60px;
+	font-size:10px;
+	margin-left:20px;
+	text-align:center;
+	line-height:50px;
+}
+.lidiv1,.lidiv2{
+	height:20px;
+	width:20px;
+	float:left;
+	margin-top:15px;
+	margin-left:10px;
+}
+.lidiv1{
+	background:url(../img/jd5.png) left top;
+}
+.lidiv2{
+	background:url(../img/jd5.png) -20px top;
+}
+#footer{
+	height:85px;
+	margin-top:25px;
+}
+.fa1{
+	font-size:10px;
+	float:left;
+	text-align:center;
+}
+.fdiv1{
+	width:860px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.fdiv2{
+	width:260px;
+	height:16px;
+	font-size:10px;
+	position:absolute;
+	left:50%;
+	margin-left:-130px;
+	margin-top:20px;
+
+}
